@@ -1,0 +1,30 @@
+h2 {
+    text-align: center;
+    color: #fff;
+    background: #9933ff;
+    /* display: block; */
+    /* width: 50%; */
+}
+button {
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    width: 60%;
+    margin: 0 auto;
+}
+
+li {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform ease-in 0.2s;
+}
+li:hover {
+    /* transform: scale(1.05); */
+    /* transform: scale(.97); */
+    /* transform: translateX(10px); */
+    transform: scale(0.97);
+    transition: transform ease-out 0.2s;
+}
